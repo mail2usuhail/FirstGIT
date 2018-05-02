@@ -8,7 +8,6 @@ import javax.ejb.Stateless;
  */
 @Stateless
 @LocalBean
-@WebService(Name=)
 public class MyService implements MyServiceLocal {
 
     /**
